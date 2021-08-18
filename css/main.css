@@ -1,0 +1,227 @@
+/* Main CSS file */
+
+.container-fluid {
+  width: 1000px;
+}
+
+
+
+#graphic {
+  padding-top: -60px;
+}
+
+
+body {
+  
+  font-size: 1em;
+  line-height: 1.5;
+  background-color: #fafafa;
+}
+
+h2 {
+  color: #024453;
+}
+
+h3 {
+  color: #024453;
+}
+
+p {
+  color: #111;
+  font-size: 10pt;
+}
+
+.innerlink {
+  font-size: 14px;
+  color: #1d83af
+}
+
+/* Main column widths */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 20%;
+}
+
+.middle {
+  width: 80%;
+}
+
+
+.step-circle {
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  border: 2px solid #666;
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 25px;
+}
+
+
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.x-axis line {
+  stroke: #141414;
+}
+
+.x-axis path {
+  stroke: #141414;
+;
+}
+
+.x-axis text {
+  fill: #141414;
+;
+}
+
+.y-axis line {
+  stroke: #141414;
+;
+}
+
+.y-axis path {
+  stroke: #141414;
+;
+}
+
+.y-axis text {
+  fill: #141414;
+
+}
+
+.axis-title text {
+  fill: #141414;
+}
+
+.sigmoid {
+  stroke-dasharray: 4px 4px;
+  stroke: #aaa;
+  fill: #121212;
+}
+
+/* style for pictogram */
+text {
+  fill: black;
+  text-anchor: middle;
+  font-size: 12px;
+  font-family: sans-serif, Helvetica, Arial;
+  font-weight: bold;
+}
+
+
+
+.people-of-color {
+
+  fill: #4191cf;
+  color: #4191cf;
+}
+
+.people-of-white {
+
+  fill: #f2ca02;
+  color: #f2ca02;
+}
+
+
+#iconCustom path {
+  padding-bottom: 2px;
+}
+
+.sample {
+  width: 15px;
+  padding-left: .5em;
+}
+
+.icon-tip {
+  z-index: 2;
+}
+
+
+
+.income-color-scale{
+  font-size: 15 ;
+
+}
+
+#extra-space {
+  height: 300px;
+}
+
+.notice {
+  font-size: 18px;
+  font-weight: bold;
+  color:#024453;
+  
+}
+
+
+.income-color-scale {
+  font-size: 16px;
+}
+
+
+.income-color-scale .legendCells .cell:nth-of-type(2) > .label {
+  opacity: 0;
+}
+
+
+.income-color-scale .legendCells .cell:nth-of-type(3) > .label {
+  opacity: 0;
+}
+
+.income-color-scale .legendCells .cell:nth-of-type(4) > .label {
+  opacity: 0;
+}
+
+.income-color-scale .legendCells .cell:nth-of-type(5) > .label {
+  opacity: 0;
+}
+
+.income-color-scale .legendCells .cell:nth-of-type(6) > .label {
+  opacity: 0;
+}
+
+
+
+.income-color-scale-treat {
+  font-size: 16px;
+}
+
+
+.income-color-scale-treat .legendCells .cell:nth-of-type(2) > .label {
+  opacity: 0;
+}
+
+
+.income-color-scale-treat .legendCells .cell:nth-of-type(3) > .label {
+  opacity: 0;
+}
+
+.income-color-scale-treat .legendCells .cell:nth-of-type(4) > .label {
+  opacity: 0;
+}
+
+.income-color-scale-treat .legendCells .cell:nth-of-type(5) > .label {
+  opacity: 0;
+}
+
+.income-color-scale-treat .legendCells .cell:nth-of-type(6) > .label {
+  opacity: 0;
+}
